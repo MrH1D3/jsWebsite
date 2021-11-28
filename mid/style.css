@@ -1,7 +1,12 @@
 body {
 	background-color: #FBDCE2;
 	}
+
+	*{
+		box-sizing: border-box;
+	}
 		.stl1{
+			padding: 5px 0px 5px 0px;
 			background-color: orange;
 			color: green;
 			font-size: 40px;
@@ -13,10 +18,18 @@ body {
 		align-self: auto;
 		width: 80%;
 	}
+
+	.menu{
+		margin:0;
+		padding: 0;
+		box-sizing: border-box;
+	}
 	header li{
 		list-style: none;
 	}
 	a:link, a:visited {
+		margin: 0;
+		padding: 0;
 		color: orange;
 		text-decoration: none;
 		background-color: green;
